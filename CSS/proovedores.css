@@ -1,0 +1,65 @@
+header{
+    padding: 30px;
+    background-color: cadetblue;
+}
+.botones img{
+    width: 100px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.botones a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.botones :hover{
+    color: white;
+    font-size: 25px;
+}
+main{
+    background-color: #8fcbe6;
+    padding: 60px;
+}
+.tarjeta{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 3px;
+    background-color: #a2cee2;
+}
+.card img{
+    width: 100%;
+}
+.card-content{
+    padding: 20px;
+    
+}
+.card h1{
+    color: cornflowerblue;
+    font-size: 25px;
+    text-align: center;
+}
+.card h2{
+    font-size: 15px;
+}
+.card :hover{
+    color: white;
+}.card .footer{
+    padding: 25px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: cadetblue;
+    padding: 10px;
+}

@@ -1,0 +1,57 @@
+header{
+    padding: 30px;
+    background-color: cadetblue;
+}
+.botones img{
+    width: 100px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.botones a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.botones :hover{
+    color: white;
+    font-size: 25px;
+}
+main{
+    background-color: #8fcbe6;
+}
+.encabezado img{
+    width: 60px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+}
+.images img{
+    width: 250px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
